@@ -8,6 +8,7 @@ class config{
             $username = "root";
             $password = "";
             $dbname = "bibliotheque";
+            echo "";
             try {
                 self::$pdo = new PDO("mysql:host=$servername;dbname=$dbname",$username,$password,
                 [
